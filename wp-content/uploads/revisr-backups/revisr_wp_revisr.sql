@@ -18,12 +18,12 @@ CREATE TABLE `wp_revisr` (
   `message` text,
   `event` varchar(42) NOT NULL,
   UNIQUE KEY `id` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `wp_revisr` WRITE;
 /*!40000 ALTER TABLE `wp_revisr` DISABLE KEYS */;
-INSERT INTO `wp_revisr` VALUES (1,'2015-06-16 12:00:34','Successfully backed up the database.','backup'),(2,'2015-06-16 12:01:45','Successfully created a new repository.','init'),(3,'2015-06-16 12:02:15','Successfully backed up the database.','backup'),(4,'2015-06-16 12:02:15','Committed <a href=\"http://10.0.0.134/w/one/wp-admin/post.php?post=5&action=edit\">#6ed239d</a> to the local repository.','commit'),(5,'2015-06-16 12:02:48','Error pushing changes to the remote repository.','error'),(6,'2015-06-16 12:03:13','Error pushing changes to the remote repository.','error'),(7,'2015-06-16 12:04:27','Error pushing changes to the remote repository.','error'),(8,'2015-06-16 12:05:03','Error pushing changes to the remote repository.','error'),(9,'2015-06-16 12:06:11','Error pushing changes to the remote repository.','error'),(10,'2015-06-16 12:06:58','Successfully pushed 1 commit to origin/master.','push'),(11,'2015-06-16 12:07:34','Successfully backed up the database.','backup');
+INSERT INTO `wp_revisr` VALUES (1,'2015-06-16 12:00:34','Successfully backed up the database.','backup'),(2,'2015-06-16 12:01:45','Successfully created a new repository.','init'),(3,'2015-06-16 12:02:15','Successfully backed up the database.','backup'),(4,'2015-06-16 12:02:15','Committed <a href=\"http://10.0.0.134/w/one/wp-admin/post.php?post=5&action=edit\">#6ed239d</a> to the local repository.','commit'),(5,'2015-06-16 12:02:48','Error pushing changes to the remote repository.','error'),(6,'2015-06-16 12:03:13','Error pushing changes to the remote repository.','error'),(7,'2015-06-16 12:04:27','Error pushing changes to the remote repository.','error'),(8,'2015-06-16 12:05:03','Error pushing changes to the remote repository.','error'),(9,'2015-06-16 12:06:11','Error pushing changes to the remote repository.','error'),(10,'2015-06-16 12:06:58','Successfully pushed 1 commit to origin/master.','push');
 /*!40000 ALTER TABLE `wp_revisr` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
