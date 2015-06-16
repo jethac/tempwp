@@ -20,12 +20,12 @@ CREATE TABLE `wp_postmeta` (
   PRIMARY KEY (`meta_id`),
   KEY `post_id` (`post_id`),
   KEY `meta_key` (`meta_key`(191))
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `wp_postmeta` WRITE;
 /*!40000 ALTER TABLE `wp_postmeta` DISABLE KEYS */;
-INSERT INTO `wp_postmeta` VALUES (1,2,'_wp_page_template','default'),(2,4,'_edit_last','1');
+INSERT INTO `wp_postmeta` VALUES (1,2,'_wp_page_template','default'),(2,4,'_edit_last','1'),(3,4,'commit_hash',''),(4,4,'branch',''),(5,4,'files_changed','0'),(6,4,'commit_status','Committed'),(7,4,'db_hash',''),(8,4,'backup_method','tables'),(9,4,'_edit_lock','1434455915:1'),(10,5,'_edit_last','1'),(11,5,'committed_files','a:20:{i:0;s:12:\"?? .htaccess\";i:1;s:12:\"?? index.php\";i:2;s:14:\"?? license.txt\";i:3;s:14:\"?? readme.html\";i:4;s:18:\"?? wp-activate.php\";i:5;s:12:\"?? wp-admin/\";i:6;s:21:\"?? wp-blog-header.php\";i:7;s:23:\"?? wp-comments-post.php\";i:8;s:16:\"?? wp-config.php\";i:9;s:14:\"?? wp-content/\";i:10;s:14:\"?? wp-cron.php\";i:11;s:15:\"?? wp-includes/\";i:12;s:20:\"?? wp-links-opml.php\";i:13;s:14:\"?? wp-load.php\";i:14;s:15:\"?? wp-login.php\";i:15;s:14:\"?? wp-mail.php\";i:16;s:18:\"?? wp-settings.php\";i:17;s:16:\"?? wp-signup.php\";i:18;s:19:\"?? wp-trackback.php\";i:19;s:13:\"?? xmlrpc.php\";}'),(12,5,'files_changed','20'),(13,5,'commit_hash','6ed239d'),(14,5,'branch','master'),(15,5,'commit_status','Committed');
 /*!40000 ALTER TABLE `wp_postmeta` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
